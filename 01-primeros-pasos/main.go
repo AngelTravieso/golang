@@ -1,24 +1,12 @@
 package main
 
-import "fmt"
+// Definición de una constante
+const MiConstante = "Ten dollars ñandú" // No hay problemas con caracteres especiales
 
-// variables y constantes
-
-// asume por inferencia el tipo de la constante
-const MiConstante = "Ten dollars ñandú" // no hay problemas con caracteres especiales
-
+// Punto de entrada de tu programa
 func main() {
-	fmt.Println("Hola Mundo desde GO")
+	// Llamada a la función definida en variables_constantes.go
+	VariablesConstantes()
 
-	// declaracion por inferencia
-	var nombre string = "Gustavo"
-
-	// declaracion rapido o corta
-	nombre2 := "Angel"
-
-	fmt.Println(nombre)
-	fmt.Println(nombre2)
-
-	fmt.Printf("El valor de mi constante es: %s", MiConstante)
-
+	TipoDatos()
 }
