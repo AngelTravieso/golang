@@ -6,7 +6,8 @@ const MiConstante = "Ten dollars ñandú" // No hay problemas con caracteres esp
 // Punto de entrada de tu programa
 func main() {
 	// Llamada a la función definida en variables_constantes.go
-	VariablesConstantes()
+	// VariablesConstantes()
 
-	TipoDatos()
+	// TipoDatos()
+	ReflectTypeOf()
 }
