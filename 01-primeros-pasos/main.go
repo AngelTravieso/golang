@@ -9,5 +9,6 @@ func main() {
 	// VariablesConstantes()
 
 	// TipoDatos()
-	ReflectTypeOf()
+	// ReflectTypeOf()
+	Punteros()
 }
